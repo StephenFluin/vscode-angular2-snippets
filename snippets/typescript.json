@@ -105,7 +105,7 @@
     "body": [
       "import { Component } from '@angular/core';",
       "import { HTTP_PROVIDERS } from '@angular/http';",
-      "import { Routes, ROUTER_DIRECTIVES, ROUTER_PROVIDERS } from '@angular/router';",
+      "import { ROUTER_DIRECTIVES } from '@angular/router';",
       "import 'rxjs/Rx'; // load the full rxjs",
       "",
       "@Component({",
@@ -115,12 +115,8 @@
       "\tdirectives: [ROUTER_DIRECTIVES],",
       "\tproviders: [",
       "\t  HTTP_PROVIDERS,",
-      "\t  ROUTER_PROVIDERS",
       "\t]",
       "})",
-      "@Routes([",
-      "\t$0",
-      "])",
       "export class AppComponent {}"
     ]
   }
